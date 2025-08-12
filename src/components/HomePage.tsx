@@ -42,7 +42,7 @@ const HomePage = ({ onNavigate }: HomePageProps) => {
     {
       name: 'Sarah M.',
       rating: 5,
-      comment: 'MindCare helped me through my darkest times. The support and understanding I received changed my life.',
+      comment: 'Mantara helped me through my darkest times. The support and understanding I received changed my life.',
     },
     {
       name: 'Michael R.',
@@ -70,13 +70,13 @@ const HomePage = ({ onNavigate }: HomePageProps) => {
         </div>
         
         <div className="relative z-10 text-center text-primary-foreground px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in-up">
+          <h1 className="text-4xl md:text-6xl font-playfair font-bold mb-6 animate-fade-in-up">
             Your Mental Health
             <span className="block text-accent-light">Matters</span>
           </h1>
-          <p className="text-xl md:text-2xl mb-8 opacity-90 animate-fade-in-up">
-            Professional, compassionate mental health care when you need it most.
-            Connect with licensed therapists and start your journey to wellness.
+          <p className="text-xl md:text-2xl mb-8 opacity-90 animate-fade-in-up font-poppins">
+            Welcome to Mantara - where healing begins. Professional, compassionate mental health care 
+            when you need it most. Connect with licensed therapists and start your journey to wellness.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up">
             <Button 
@@ -101,10 +101,10 @@ const HomePage = ({ onNavigate }: HomePageProps) => {
       <section className="py-20 bg-gradient-card">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Why Choose MindCare?
+            <h2 className="text-3xl md:text-4xl font-playfair font-bold text-foreground mb-4">
+              Why Choose Mantara?
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-poppins">
               We're committed to providing exceptional mental health care that's accessible, 
               effective, and tailored to your unique needs.
             </p>
@@ -148,11 +148,11 @@ const HomePage = ({ onNavigate }: HomePageProps) => {
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+            <h2 className="text-3xl md:text-4xl font-playfair font-bold text-foreground mb-4">
               What Our Patients Say
             </h2>
-            <p className="text-xl text-muted-foreground">
-              Real stories from people who found help and hope with MindCare.
+            <p className="text-xl text-muted-foreground font-poppins">
+              Real stories from people who found help and hope with Mantara.
             </p>
           </div>
 
@@ -184,10 +184,10 @@ const HomePage = ({ onNavigate }: HomePageProps) => {
       {/* CTA Section */}
       <section className="py-20 gradient-calm">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+          <h2 className="text-3xl md:text-4xl font-playfair font-bold text-foreground mb-6">
             Ready to Start Your Journey?
           </h2>
-          <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto font-poppins">
             Take the first step towards better mental health. Our caring team is here to support you.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

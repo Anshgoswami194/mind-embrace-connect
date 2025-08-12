@@ -71,12 +71,12 @@ const AboutPage = () => {
       {/* Hero Section */}
       <section className="py-20 gradient-hero">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-6">
-            About MindCare
+          <h1 className="text-4xl md:text-5xl font-playfair font-bold text-primary-foreground mb-6">
+            About Mantara
           </h1>
-          <p className="text-xl text-primary-foreground/90 max-w-3xl mx-auto">
+          <p className="text-xl text-primary-foreground/90 max-w-3xl mx-auto font-poppins">
             Founded on the belief that everyone deserves access to quality mental health care, 
-            MindCare has been a beacon of hope and healing for our community since 2015.
+            Mantara has been a beacon of hope and healing for our community since 2015.
           </p>
         </div>
       </section>
@@ -86,10 +86,10 @@ const AboutPage = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+              <h2 className="text-3xl md:text-4xl font-playfair font-bold text-foreground mb-6">
                 Our Mission
               </h2>
-              <p className="text-xl text-muted-foreground">
+              <p className="text-xl text-muted-foreground font-poppins">
                 To provide compassionate, evidence-based mental health care that empowers 
                 individuals to achieve their fullest potential and live meaningful lives.
               </p>
@@ -98,9 +98,9 @@ const AboutPage = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div>
                 <h3 className="text-2xl font-semibold text-foreground mb-4">Our Story</h3>
-                <p className="text-muted-foreground mb-6">
-                  MindCare was founded by a team of mental health professionals who recognized 
-                  the need for more accessible, patient-centered care. We started with a simple 
+                <p className="text-muted-foreground mb-6 font-poppins">
+                  Mantara was founded by a team of mental health professionals who recognized 
+                  the need for more accessible, patient-centered care. We started with a simple
                   vision: to break down barriers to mental health treatment and create a space 
                   where healing can happen.
                 </p>

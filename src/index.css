@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Mental Health Care Design System - Calming and Professional */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+/* Mantara Mental Health Design System - Calming and Professional */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap');
 
 @layer base {
   :root {
@@ -127,8 +127,9 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+    font-weight: 400;
   }
 
   /* Smooth scroll behavior */

@@ -115,10 +115,10 @@ const ServicesPage = () => {
       {/* Hero Section */}
       <section className="py-20 gradient-hero">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-6">
+          <h1 className="text-4xl md:text-5xl font-playfair font-bold text-primary-foreground mb-6">
             Our Services
           </h1>
-          <p className="text-xl text-primary-foreground/90 max-w-3xl mx-auto mb-8">
+          <p className="text-xl text-primary-foreground/90 max-w-3xl mx-auto mb-8 font-poppins">
             Comprehensive mental health services tailored to your unique needs. 
             We offer both in-person and online therapy options.
           </p>
@@ -136,10 +136,10 @@ const ServicesPage = () => {
       <section className="py-20 bg-gradient-card">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+            <h2 className="text-3xl md:text-4xl font-playfair font-bold text-foreground mb-4">
               Therapy Services
             </h2>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-xl text-muted-foreground font-poppins">
               Evidence-based treatments delivered by licensed professionals
             </p>
           </div>

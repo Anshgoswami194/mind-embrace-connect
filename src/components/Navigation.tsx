@@ -25,7 +25,7 @@ const Navigation = ({ currentPage, onNavigate }: NavigationProps) => {
             <div className="w-8 h-8 gradient-hero rounded-lg flex items-center justify-center">
               <Heart className="w-5 h-5 text-primary-foreground" />
             </div>
-            <span className="text-xl font-semibold text-foreground">MindCare</span>
+            <span className="text-xl font-playfair font-semibold text-foreground">Mantara</span>
           </div>
 
           {/* Desktop Navigation */}
